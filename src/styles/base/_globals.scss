@@ -1,0 +1,49 @@
+@use "@/styles/abstract/colors" as *;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+// prettier-ignore
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+}
+
+html {
+  font-family: Montserrat;
+  font-size: 14px;
+}
+
+body,
+#app {
+  min-height: 100vh;
+}
+
+.text-primary {
+  color: $primary;
+}
+.text-secondary {
+  color: $secondary;
+}
+.text-warning {
+  color: $warning;
+}
+.text-negative {
+  color: $negative;
+}
+
+.bg-primary {
+  background-color: $primary;
+}
+.bg-secondary {
+  background-color: $secondary;
+}
+.bg-warning {
+  background-color: $warning;
+}
+.bg-negative {
+  background-color: $negative;
+}

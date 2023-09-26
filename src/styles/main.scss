@@ -1,8 +1,7 @@
 // Normalize CSS
-@import "normalize.css";
+@use "normalize.css";
 
-// Import base rules
-@import "base/base.scss";
-
-// Import typography related stuff
-@import "typography/fonts.scss";
+@use "base";
+@use "typography";
+@use "utils";
+@use "animations";
